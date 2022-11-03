@@ -2,8 +2,8 @@
 # Article
 class Article
     
-    @@articles = []
-    def initialize attributes
+  @@articles = []
+  def initialize attributes
         attributes.each {|key,valu
         self.class.attr_accessor(k
         self.send("#{key}=", value
@@ -48,6 +48,7 @@ end
 
 
   # Magazine
+  
 #require 'pry'
 
   class Magazine
